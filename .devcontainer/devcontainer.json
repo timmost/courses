@@ -1,0 +1,13 @@
+{
+  "name": "Anthropic Courses",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install anthropic jupyter ipykernel python-dotenv",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
+}
